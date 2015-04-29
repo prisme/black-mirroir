@@ -110,7 +110,7 @@ var em = {
 
     emit: function (call) {
         if (!_listeners[call]) {
-            console.error('Event "' + call + '" doesn\'t exist');
+            console.error('Noone listening to event: "' + call + '"');
             return;
         }
 
