@@ -1,6 +1,15 @@
 ## Black Mirroir ##
+Based on cool stuff handpicked from npm : browserify - page router - handlebars - gulp .etc  
 
-Framework Template using browserify and gulp.
+### MV framework
+*Le flux continu*  **&** *Le accès direct*.  
+Rendering is done client side at the moment but allows direct url access.
+TODO : generate static html files.
+
+**NB:**  
+A version using mustache instead of handlebars template engine exists.  
+This allows sharing view-templates between PHP & Js, to do client & server side rendering without template duplication.  
+
 
 # Getting Started #
 
