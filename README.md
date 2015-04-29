@@ -1,4 +1,4 @@
-## Browserift Template ##
+## Black Mirroir ##
 
 Framework Template using browserify and gulp.
 
