@@ -10,7 +10,9 @@ var instances = {
     other: other,
 };
 
-exports.route = function(ROOT) {
+exports.page = page;
+
+exports.init = function(ROOT) {
 
     // Create enter and exit per view
     page('/', home.enter);
