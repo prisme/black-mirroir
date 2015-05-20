@@ -1,8 +1,6 @@
 // Use static template for 'one of a kind' pages like home
 // Is never destroyed
 
-
-var page = require('page');
 var xhr = require('xhr');
 var gsap = require('gsap');
 var parseHTML = require('parseHTML');

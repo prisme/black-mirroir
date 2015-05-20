@@ -31,7 +31,7 @@
 # Options +SymLinksIfOwnerMatch
   RewriteEngine On
 # RewriteBase /
-  RewriteBase /lib/browserify-template/
+  RewriteBase /lib/black-mirroir/
 </IfModule>
 
 
