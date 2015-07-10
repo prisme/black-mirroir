@@ -1,6 +1,9 @@
 ## Black Mirroir ##
 Based on cool stuff handpicked from npm : browserify - page router - handlebars - gulp .etc  
 
+greatly inspired by [bigwheel framework](https://github.com/bigwheel-framework)
+
+
 ### MV framework
 *Le flux continu*  **&** *Le accès direct*.  
 Rendering is done client side at the moment but allows direct url access.
