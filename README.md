@@ -1,11 +1,12 @@
-## Black Mirroir ##
+# Black Mirroir #
 Evolving & flexible MV framework based on handpicked npm packages :  
 browserify - gulp - page.js - handlebars - GSAP …
+<br><br>
 
 inspired by [bigwheel framework](https://github.com/bigwheel-framework) - upon route change : 
 - current view _exit_ : _animateOut_ then remove the view DOM container
 - next view _enter_ : loadData (JSON), compileTemplate, ready, preload, _animateIn_  
-  
+<br> 
   
 Rendering is done client side at the moment but allows direct url access.
 
