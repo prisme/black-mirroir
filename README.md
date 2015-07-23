@@ -12,7 +12,7 @@ TODO : server-side rendering
 generate static html files during build process, and/or use Mustache templates shared between PHP & Js, enabling server + client side  rendering without duplication.
 
 
-# Getting Started #
+# Getting Started
 
 1. Duplicate sources and rename folder.
 
