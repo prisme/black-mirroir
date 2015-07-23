@@ -1,17 +1,16 @@
 ## Black Mirroir ##
-Based on cool stuff handpicked from npm : browserify - page router - handlebars - gulp .etc  
+Evolving & flexible MV framework based on handpicked npm packages :  
+browserify - gulp - page.js - handlebars - GSAP …
 
-greatly inspired by [bigwheel framework](https://github.com/bigwheel-framework)
-
-
-### MV framework
-*Le flux continu*  **&** *Le accès direct*.  
+inspired by [bigwheel framework](https://github.com/bigwheel-framework) - upon route change : 
+- current view _exit_ : _animateOut_ then remove the view DOM container
+- next view _enter_ : loadData (JSON), compileTemplate, ready, preload, _animateIn_  
+  
+  
 Rendering is done client side at the moment but allows direct url access.
-TODO : generate static html files.
 
-**NB:**  
-A version using mustache instead of handlebars template engine exists.  
-This allows sharing view-templates between PHP & Js, to do client & server side rendering without template duplication.  
+TODO : server-side rendering  
+generate static html files during build process, and/or use Mustache templates shared between PHP & Js, enabling server + client side  rendering without duplication.
 
 
 # Getting Started #
