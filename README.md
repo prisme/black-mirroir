@@ -1,4 +1,4 @@
-# Black Mirroir #  
+# Black Mirroir   
 minimalist MV framework that manages application state, inspired by [bigwheel framework](https://github.com/bigwheel-framework) and based on handpicked npm packages :  browserify - gulp - page.js - handlebars / mustache - GSAP …  
 <br>  
 
