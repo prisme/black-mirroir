@@ -63,6 +63,7 @@ function instance() {
 
     // 3. Compile a DOM element from the template and data
     function compileTemplate(ctx) {
+        data = data || ctx.state.item
         var html = template(data);
         content = parseHTML(html);
         ready(ctx);
@@ -133,9 +134,6 @@ function instance() {
         delete ctx.instance;
         
         animateOut(next);
-
-        // Let next view start loading
-        // next();
     };
 
     function animateOut(next) {

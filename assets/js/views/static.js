@@ -53,6 +53,8 @@ function loadData(ctx){
 
 // 3. Compile a DOM element from the template and data
 function compileTemplate(ctx) {
+    data = data || ctx.state.static
+
     var html = template(data);
     content = parseHTML(html);
     ready(ctx);
@@ -100,9 +102,6 @@ exports.exit = function (ctx, next){
     state = 'leaving';
     
     animateOut(next);
-
-    // Let next view start loading
-    // next();
 };
 
 function animateOut(next) {
