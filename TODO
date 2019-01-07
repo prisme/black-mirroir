@@ -1,3 +1,4 @@
 TODO
 
+[ ] replace hbsify with handlebars and get back access to helpers
 [ ] generated HTML files for direct access. Then update htaccess not to point to index.html

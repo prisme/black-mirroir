@@ -64,6 +64,7 @@ function instance() {
     // 3. Compile a DOM element from the template and data
     function compileTemplate(ctx) {
         data = data || ctx.state.item
+
         var html = template(data);
         content = parseHTML(html);
         ready(ctx);
@@ -72,35 +73,14 @@ function instance() {
     // 4. Content is ready to be shown
     function ready(ctx) {
         state = 'ready';
-
+        
         document.body.appendChild(content);
-
-        // preload({
-        //     id: 'home',
-        //     images: {
-        //         test: 'assets/img/test.jpg',
-        //     },
-        //     shaders: {
-        //         baseVert: 'assets/shaders/base_vert.glsl',
-        //     },
-        //     streams: {
-        //         buzz: 'assets/audio/buzz.mp3',
-        //     },
-        //     buffers: {
-        //         buzz: 'assets/audio/buzz.mp3',
-        //     },
-        // });
-
-        // pubsub.on('preload-home', function(_assets) {
-        //     console.log(_assets);
-        // });
-
+        
         animateIn();
         
         // For resize:
         //     either force a global resize from common.js
         // pubsub.emit('global-resize');
-
         //     or just keep it local
         // resize(window.innerWidth, window.innerHeight);
     }
@@ -158,4 +138,3 @@ function instance() {
     }
 
 }
-
