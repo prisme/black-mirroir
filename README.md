@@ -1,6 +1,8 @@
 # Black Mirroir   
 minimalist MV framework that manages application state, inspired by [bigwheel framework](https://github.com/bigwheel-framework) and based on handpicked npm packages :  browserify - gulp - page.js - handlebars / mustache - GSAP …  
-<br>  
+<br>
+
+Used at on many projects at @ultranoir before React/Vue was cool
 
 upon route change : 
 - current view _exit_ : _animateOut_ then remove the view DOM container
